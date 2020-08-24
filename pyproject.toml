@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "wscrap"
+version = "0.1.0"
+description = "Command line web scrapping tool"
+homepage = "https://github.com/tz4678/wscrap"
+readme = "README.md"
+authors = ["Sergey M <tz4678@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiodns = "^2.0.0"
+aiohttp = "^3.6.2"
+beautifulsoup4 = "^4.9.1"
+lxml = "^4.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.6.0"
+black = "^19.10b0"
+
+[tool.poetry.scripts]
+wscrap = "wscrap:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
