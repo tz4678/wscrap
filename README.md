@@ -1,6 +1,6 @@
 # WScrap
 
-Command line web scrapping tool.
+Command line web scraping tool.
 
 Usage:
 

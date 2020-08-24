@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Command line web scrapping tool"""
+"""Command line web scraping tool"""
 import argparse
 import asyncio
 import cgi
